@@ -5,11 +5,22 @@
     <title>Document</title>
 </head>
 <body>
-    <p>paragraf pierwszy</p>
-    <p>paragraf drugi</p>
-    <p>trzeci paragraf</p>
-    <p>czwarty paragraf</p>
-    <p>piaty paragraf</p>
+    <div id="formularz">
+        <form action="https://formspree.io/your@email.com" method="POST">
+            <label for="name">Twoje imię</label><br>
+            <input type="text" id="name"><br>
+            <label for="surname">Twoje nazwisko</label><br>
+            <input type="text" id="surname"><br>
+            <label for="mail">Twój adres email</label><br>
+            <input type="text" id="mail"><br>
+            <label for="number">Numer telefonu</label><br>
+            <input type="number" id="number"><br>
+            <label for="message">Zostaw wiadomość</label><br>
+            <textarea maxlenght="50" name="" id="" cols="30" rows="10"></textarea> <br>
+            
+            <input type="submit"><br>
+        </form>
+    </div>
 
 </body>
 </html>
