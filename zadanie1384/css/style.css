@@ -12,25 +12,28 @@ tlo #213b50, pole nieaktywne #2b4a64, pole aktywne #4e708c, ramka aktywnego pola
 #form input,
 select,
 textarea {
-    margin-bottom: 15px;
+    margin-bottom: 3%;
     background-color: #2b4a64;
     border: 0px solid #2b4a64;
-    width: 200px;
+    width: 40%;
+    color: #ffffff;
 }
 
-#form input:focus, textarea:focus, select:focus {
+#form input:focus, textarea:focus, select:focus, {
     background-color: #4e708c;
     color: #ffffff;
     outline-color: #ffffff;
 }
 
 #form .box {
-    width: 20px;
-    margin-bottom: 5px;
+    width: 4%;
+    margin-bottom: 1%;
+    color: #ffffff;
+    
 }
 
 #form #gender {
-    margin-bottom: 15px;
+    margin-bottom: 3%;
 }
 
 #form textarea {
@@ -42,5 +45,15 @@ textarea {
     height: 25px;
     background-color: #1FCC00;
     color: #ffffff;
-    margin-top: 15px;
+    margin-top: 3%;
+}
+
+#form label {
+    color: #ffffff;
+}
+
+#form p {
+    color: #ffffff;
+    margin: 0px;
+    display: inline-block;
 }
