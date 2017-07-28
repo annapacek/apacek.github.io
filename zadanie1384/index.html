@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="form">
+        <form action="https://formspree.io/annapacek1991@gmail.com" method="POST">
+           
+            <label for="name">Imię:</label><br>
+                <input type="text" name="name" id="name"><br>
+            <label for="surname">Nazwisko:</label><br>
+                <input type="text" name="surname" id="surname"><br>
+            <label for="mail">Email:</label><br>
+                <input type="text" name="mail" id="mail"><br>
+            <label for="number">Telefon:</label><br>
+                <input type="number" name="number" id="number"><br>
+            <label for="town">Wybierz miasto:</label><br>
+                <select name="town" id="town">
+                    <option value="Warszawa">Warszawa</option>
+                    <option value="Kraków">Kraków</option>
+                    <option value="Wrocław">Wrocław</option>
+                    <option value="Gdańsk">Gdańsk</option>
+                    <option value="Poznań">Poznań</option>
+                </select><br>
+            <label for="gender">Wybierz płeć:</label><br>
+                <input class="box" type="radio" name="gender" value="mężczyzna" checked>Mężczyzna<br>
+                <input id="gender" class="box" type="radio" name="kobieta" value="female">Kobieta<br>
+            <label for="message">Zostaw wiadomość:</label><br>
+                <textarea id="message" maxlength=1000 name="message" placeholder="Powiedz coś światu!"></textarea><br>
+                
+            <input class="box" type="checkbox" name="agreement" value="Yes">Wyrażam zgodę na przetwarznie danych osobowych<br>
+            <input class="send" type="submit" value="SEND"><br>
+            
+        </form>
+    </div>
+</body>
+
+</html>
