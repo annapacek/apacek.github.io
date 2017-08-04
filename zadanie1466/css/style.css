@@ -1,0 +1,19 @@
+body {
+    font-family: 'Verdana', sans-serif;
+    height: 100%;
+    margin: 0;
+}
+
+#image {
+    background-size: cover;  
+    background-position: center;
+    position: relative;
+}
+
+#text {
+    position: absolute;
+    color: #ffffff;
+    width: 100%;
+    padding: 3%;
+}
+

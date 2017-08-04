@@ -1,0 +1,38 @@
+@media screen and (min-width: 1170px) { 
+    
+    #image {
+    background-image: url(../img/man-1.jpg);
+    height: 100vh; /*wysokosc na 100 okna przegladarki*/
+    }
+    
+    #text {
+    top: 45%;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1170px) { 
+   
+    #image {
+    background-image: url(../img/man-2.jpg);
+    height: 70vh; /*wysokosc na 70 okna przegladarki*/
+    }
+    
+    #text {
+    top: 0%;
+    right: 0%;
+    width: auto;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    
+    #image {
+    background-image: url(../img/man-1.jpg);
+    height: 50vh; /*wysokosc na 50 okna przegladarki*/
+    }
+
+    #text {
+    text-align: center;
+    color: #000000;
+    }
+}
