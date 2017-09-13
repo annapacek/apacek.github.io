@@ -1,0 +1,39 @@
+@media screen and (max-width: 768px) {
+    
+    #list-nav,
+    .navbar-header {
+        text-align: right;
+        border: none;
+        background-color: #FFFFFF;
+        color: #1ac056;
+    }
+    
+    #list-nav li a {
+        color: #1ac056;
+    }
+    
+    #list-nav li a:hover {
+        color: #291f1a;
+    }
+
+    .navbar-toggle {
+        font-size: 20px;
+        border: none;
+    }
+    
+    .navbar-default .navbar-toggle:focus,
+    .navbar-default .navbar-toggle:hover {
+        background-color: #FFF;
+    }
+    
+    #about-me .about-txt,
+    #contact-details,
+    #contact-details h3,
+    #form {
+        text-align: center;
+    }
+    
+    #contact .social-icons {
+        left: 15%;
+    }
+}
