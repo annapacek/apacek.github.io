@@ -1,0 +1,40 @@
+#footer {
+    background-color: #292929;
+    padding: 50px 80px 20px;
+    text-align: center;
+    font-size: 12px;
+    
+        .contact{
+            width: 50%;
+
+            .yellow-square {
+                background-color: #ecd407;
+                color: #000000;
+                width: 30px;
+                height: 30px;
+                text-align: center;
+                margin: 0 auto;
+                
+                i {
+                    line-height: 30px;
+                }
+            }
+            
+            &.mail {
+                float: right;
+            }
+            
+            &.phone {
+                float: left;
+            }
+        }
+    
+    #clear {
+        clear: both; 
+    }
+    
+    p {
+        margin-bottom: 20px;
+        margin-top: 3px;
+    }   
+}
