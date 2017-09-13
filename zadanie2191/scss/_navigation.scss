@@ -1,0 +1,40 @@
+@import 'variables';
+@import 'mixins';
+
+.navbar {
+    background-color: transparent;
+    border: none;
+    font-family: $font-Droid;
+
+    .navbar-header{
+        a {
+            font-size: 25px; 
+            @include nav-links;
+        }
+        a:hover {
+            color:$color-blue;
+        }
+    }
+
+    .navbar-collapse {
+        font-family: $font-Montserrat;
+        font-weight: 500;
+
+        ul {
+            li {
+                a {
+                    @include nav-links;
+                }
+                a:hover {
+                    color:$color-blue;
+                }
+            }
+        }
+    }
+}
+
+.menu-scrolled {
+    background-color: rgba(14, 216, 214, 0.8);
+}
+
+

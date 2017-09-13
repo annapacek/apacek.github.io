@@ -1,0 +1,22 @@
+@import 'variables';
+@import 'mixins';
+
+body {
+    font-family: $font-Roboto;
+    color: #777777;
+    
+    @import 'navigation';
+    
+    @import 'header';
+    
+    @import 'services';
+    
+    @import 'portfolio';
+    
+    @import 'myteam';
+    
+    @import 'contact';
+    
+    @import 'footer';
+}
+    

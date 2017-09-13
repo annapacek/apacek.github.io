@@ -1,0 +1,45 @@
+@import 'variables';
+@import 'mixins';
+
+#contact {
+    @include section-padding;
+    background-image: linear-gradient(rgba(51, 51, 51, 0.7), rgba(51, 51, 51, 0.7)), url(../img/footer/world-map.jpg);
+    background-size: cover;
+    color: #FFFFFF;
+    
+    h3 {
+        @include headerh3-h4;
+        color: #FFFFFF;
+    }
+    
+    p {
+        margin-bottom: 50px;
+        font-family: $font-Droid;
+    }
+    
+    .inner-form {
+        input {
+            height: 50px;
+        }
+        
+        .form-control::placeholder {
+            text-transform: uppercase;
+            font-family:$font-Montserrat;
+            padding: 5px;
+        }
+    }
+    
+    .button {
+        width: 100%;
+        
+        .btn {
+            @include submit-button;
+            margin-top: 50px;
+            padding: 20px;
+        }
+        
+        .btn:hover {
+            @include button-hover;
+        }
+    }  
+}

@@ -1,0 +1,64 @@
+@import 'variables';
+@import 'mixins';
+
+#my-team {
+    @include section-padding;
+    
+    h3 {
+        @include headerh3-h4;
+    }
+        
+    p:nth-child(2) {
+        font-family: $font-Droid;
+    }
+    
+    .face {
+        width: 200px;
+        height: 200px; 
+        background-size: cover;
+        border-radius: 50%;
+        display: inline-block;
+    }
+    
+    .text-content {
+        h4 {
+            @include headerh3-h4;
+        }
+
+        p {
+            font-family:$font-Roboto;
+        }
+
+        .social {
+            .social-icon {
+                @include social-icons
+
+                .fa {
+                    @include social-font
+                }
+            }
+            .social-icon:hover {
+                background-color:$color-blue;
+            }
+        }
+    }
+    
+    #team-photo1 {
+        background-image: url(../img/team/man-1.jpg);
+    }
+
+    #team-photo2 {
+        background-image: url(../img/team/man-2.jpg);
+    }
+
+    #team-photo3 {
+        background-image: url(../img/team/woman-1.jpg);
+    }
+    
+    .team-description {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+

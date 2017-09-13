@@ -1,0 +1,20 @@
+@import 'variables';
+@import 'mixins';
+
+#footer {
+    padding: 30px 0;
+    font-family: $font-Montserrat;
+    
+    .social {
+        .social-icon {
+            @include social-icons
+
+            .fa {
+                @include social-font
+            }
+        }
+        .social-icon:hover {
+            background-color:$color-blue;
+        }
+    }
+}

@@ -1,0 +1,48 @@
+@import 'variables';
+
+@mixin headerh3-h4 {
+    font-family: $font-Montserrat;
+    color: #333333;
+    font-weight: 700;
+}
+
+@mixin section-padding {
+    padding: 100px 0;
+}
+
+@mixin nav-links {
+    color: #FFFFFF; 
+    transition: all 0.5s;
+}
+
+@mixin submit-button {
+    font-family:$font-Montserrat;
+    font-size: 15px;
+    background-color:$color-blue;
+    color: #FFFFFF;
+    border: 2px solid #0ed8d6;
+    padding: 10px 25px;
+    transition: all 0.5s;
+}
+
+@mixin button-hover {
+    border: 2px solid #0ed8d6;
+    background-color: #FFFFFF;
+    color: #0ed8d6;
+}
+
+@mixin social-icons {
+    width: 40px;
+    height: 40px; 
+    margin: 0 5px 15px;
+    border-radius: 50%;
+    background-color: #222222;
+    display: inline-block;
+    transition: all 0.5s;
+}
+
+@mixin social-font {
+    font-size: 20px;
+    color: #FFFFFF;
+    line-height: 40px;
+}

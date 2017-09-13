@@ -1,0 +1,82 @@
+@import 'variables';
+@import 'mixins';
+
+#portfolio {
+    @include section-padding;
+    background-color: #F7F7F7;
+    
+    h3 {
+        @include headerh3-h4;
+    }
+        
+    p:nth-child(2) {
+        font-family: $font-Droid;
+    }
+    
+    .row {
+        figure {
+            background-color: #FFFFFF;
+            border: 10px solid #F7F7F7; 
+            
+            .image-outer {
+                overflow: hidden;
+                height: 250px;
+                
+                .image {
+                    background-size: cover;
+                    height: 100%;
+                    transition: all 1s;
+                    
+                    .mask {
+                        background-color: rgba(14, 216, 214, 0.6);
+                        height: 100%;
+                        opacity: 0;
+                        transition: all 1s;
+                        
+                        .fa {
+                            font-size: 80px;
+                            line-height: 250px;
+                            color: #FFFFFF;
+                        }
+                    }
+                    .mask:hover {
+                        opacity: 1;
+                    }
+                }
+                .image:hover {
+                    transform: scale(1.2);
+                }
+                
+                #first-port {
+                    background-image: url(../img/portfolio/box_of_cookies.jpg);
+                }
+                #second-port {
+                    background-image: url(../img/portfolio/chaotic_paint.jpg);
+                }
+                #third-port {
+                    background-image: url(../img/portfolio/chestnut_on_bracket.jpg);
+                }
+                #fourth-port {
+                    background-image: url(../img/portfolio/child_with_blue_paint.jpg);
+                }
+                #fifth-port {
+                    background-image: url(../img/portfolio/house_with_blue_doors.jpg);
+                }
+                #sixth-port {
+                    background-image: url(../img/portfolio/typing_on_laptop.jpg);
+                } 
+            }
+            
+            .text-content {
+                padding: 20px;
+                
+                h4 {
+                    @include headerh3-h4;
+                }
+            }
+        }
+    }   
+}
+
+
+

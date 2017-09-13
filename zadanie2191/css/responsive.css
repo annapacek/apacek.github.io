@@ -1,0 +1,25 @@
+@media screen and (max-width: 768px) {
+    #main-nav {
+        background-color: #FFFFFF;
+    }
+
+    #main-nav .navbar-toggle {
+        background-color: #FFFFFF;
+    }
+
+    #main-nav .navbar-toggle .icon-bar {
+        background-color: #0ed8d6;
+    }
+
+    #main-nav a {
+        color: #0ed8d6;
+    }
+
+    #main-nav a:hover {
+        color: #777777;
+    }
+
+    #main-nav #list-nav {
+        text-align: right;
+    }
+}

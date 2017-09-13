@@ -1,0 +1,54 @@
+@import 'variables';
+@import 'mixins';
+
+#services {
+    @include section-padding;
+    
+    #inner-services {
+        
+        h3 {
+            @include headerh3-h4;
+        }
+        
+        p:nth-child(2) {
+            font-family: $font-Droid;
+        }
+        
+        .row {
+            width: 100%;
+            margin: 60px 0;
+            
+            .services-image {
+                width: 50px;
+                height: 50px;
+                background-color: $color-blue;
+                display: inline-block;
+                border-radius: 50%;
+                border: $border-blue-05;
+                transition: all 1s;
+                
+                .fa {
+                    font-size: 25px;
+                    line-height: 50px;
+                    color: #FFFFFF;
+                    transition: all 1s;
+                }
+                .fa:hover {
+                    transform: rotate(360deg);
+                    color: $color-blue;
+                } 
+            }
+            .services-image:hover {
+                background-color: #FFFFFF;
+                border: $border-blue-05;
+            }
+            
+            h4 {
+                @include headerh3-h4;
+            }
+        }
+    }
+    
+}
+
+
